@@ -146,7 +146,8 @@ module.exports = function(grunt) {
 					'logo-whatsapp': 0xF608,
 					'logo-wordpress': 0xF205,
 					'logo-xanga': 0xF609,
-					'logo-youtube': 0xF213
+					'logo-youtube': 0xF213,
+					'share': 0xF415,
 				},
 				startCodepoint: 0xF610
 			}
