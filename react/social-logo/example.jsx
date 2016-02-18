@@ -24,9 +24,11 @@ export default React.createClass( {
 				<SocialLogo icon="behance" size={ 48 } onClick={ this.handleClick.bind( this, 'behance' ) } />
 				<SocialLogo icon="blogger-alt" size={ 48 } onClick={ this.handleClick.bind( this, 'blogger-alt' ) } />
 				<SocialLogo icon="blogger" size={ 48 } onClick={ this.handleClick.bind( this, 'blogger' ) } />
+				<SocialLogo icon="codepen-alt" size={ 48 } onClick={ this.handleClick.bind( this, 'codepen-alt' ) } />
 				<SocialLogo icon="codepen" size={ 48 } onClick={ this.handleClick.bind( this, 'codepen' ) } />
 				<SocialLogo icon="digg" size={ 48 } onClick={ this.handleClick.bind( this, 'digg' ) } />
 				<SocialLogo icon="dribbble" size={ 48 } onClick={ this.handleClick.bind( this, 'dribbble' ) } />
+				<SocialLogo icon="dropbox-alt" size={ 48 } onClick={ this.handleClick.bind( this, 'dropbox-alt' ) } />
 				<SocialLogo icon="dropbox" size={ 48 } onClick={ this.handleClick.bind( this, 'dropbox' ) } />
 				<SocialLogo icon="eventbrite" size={ 48 } onClick={ this.handleClick.bind( this, 'eventbrite' ) } />
 				<SocialLogo icon="facebook" size={ 48 } onClick={ this.handleClick.bind( this, 'facebook' ) } />
@@ -53,6 +55,7 @@ export default React.createClass( {
 				<SocialLogo icon="skype" size={ 48 } onClick={ this.handleClick.bind( this, 'skype' ) } />
 				<SocialLogo icon="spotify" size={ 48 } onClick={ this.handleClick.bind( this, 'spotify' ) } />
 				<SocialLogo icon="squarespace" size={ 48 } onClick={ this.handleClick.bind( this, 'squarespace' ) } />
+				<SocialLogo icon="stumbleupon-alt" size={ 48 } onClick={ this.handleClick.bind( this, 'stumbleupon-alt' ) } />
 				<SocialLogo icon="stumbleupon" size={ 48 } onClick={ this.handleClick.bind( this, 'stumbleupon' ) } />
 				<SocialLogo icon="telegram" size={ 48 } onClick={ this.handleClick.bind( this, 'telegram' ) } />
 				<SocialLogo icon="tumblr-alt" size={ 48 } onClick={ this.handleClick.bind( this, 'tumblr-alt' ) } />
