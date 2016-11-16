@@ -1,9 +1,8 @@
-icon-font/
 react/
 svg/
 svg-min/
-svg-sprite/
 .idea/
 codepoints.json
 exporter-multi.jsx
 social-logos.ai
+Gruntfile.js
