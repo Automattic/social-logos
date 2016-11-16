@@ -146,6 +146,7 @@ module.exports = function( grunt ) {
 					'stage-2',
 					'babili'
 				],
+				comments: false,
 				plugins: [
 					'transform-runtime',
 					'transform-class-properties',
