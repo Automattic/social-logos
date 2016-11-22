@@ -159,7 +159,6 @@ module.exports = function( grunt ) {
 			},
 			dist: {
 				files: {
-					"build/main.js": "build/main.jsx",
 					"build/index.js": "build/index.jsx",
 					"build/example.js": "build/example.jsx"
 				}
@@ -298,16 +297,10 @@ module.exports = function( grunt ) {
 							'		);\n' +
 							'	}\n' +
 							'} );\n';
-
-		const main =
-			"import index from './index.js';\n"+
-			"import example from './example.js';\n"+
-			"export default index;\n"+
-			"export { example };\n";
+		
 		// Write the React component to social-logo/index.jsx
 		grunt.file.write( 'build/index.jsx', content );
 		grunt.file.write( 'build/example.jsx', designContent );
-		grunt.file.write( 'build/main.jsx', main );
 	});
 
 	// Update all files in svg-min to add transparent square, this ensures copy/pasting to Sketch maintains a 24x24 size
