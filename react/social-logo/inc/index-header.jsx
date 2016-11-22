@@ -31,13 +31,13 @@ export default React.createClass( {
 	},
 
 	render() {
-		const icon = this.props.icon;
 
-		const iconClass = this.props.className ? `social-logo ${ icon } ${ this.props.className }` : `social-logo ${ icon }`;
+		const { className, icon, onClick, size } = this.props;
+		const iconClass = [ 'social-logo', icon, className ].filter( Boolean ).join( ' ' );
 
 		let svg = null;
 
 		switch ( icon ) {
 			default:
-				svg = <svg height={ this.props.size } width={ this.props.size } />;
+				svg = <svg height={ size } width={ size } />;
 				break;
