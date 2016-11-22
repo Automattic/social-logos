@@ -8,7 +8,7 @@
   },
   "license": "GPL-2.0+",
   "scripts": {
-    "build": "$(npm bin)/grunt --verbose"
+    "build": "grunt --verbose"
   },
   "peerDependencies": {
     "react": ">=14.x"
