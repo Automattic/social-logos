@@ -88,7 +88,6 @@ Do remember to update the React components where they are used, when you add a n
 ### Publishing to NPM
 
 - Follow install instructions
-- Run `npm run build`
 - Check in changes if any and follow PR process.
 - Bump package version in package.json to the next desired version and add an alpha postfix `1.1.0-alpha.1`
 - While testing changes publish using the next tag `npm publish --tag next`
