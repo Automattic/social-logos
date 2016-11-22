@@ -79,9 +79,8 @@ In the commandline, type `npm run build`. This will clean up, polish, and genera
 
 - A folder called `svg-min`. This folder contains minimized SVGs of every Social Logo. These SVGs can be dragged directly into Sketch for mockups.
 - A folder called `svg-sprite`. This folder contains a single SVG sprite called `social-logos.svg`, which can be referenced using `use`. But this doesn't work in IE at all yet, eventually it will work in Edge and newer.
-- A folder called `react`. This folder contains a social-logo component for use in React based environment.
 - A folder called `icon-font`. This folder contains different icon font files and css files.
-- A folder called `build`. This folder contains the minified component that will be exported to npm
+- A folder called `build`. This folder contains the minified component and example that will be exported to npm
 
 Do remember to update the React components where they are used, when you add a new icon.
 
