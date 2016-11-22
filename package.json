@@ -9,7 +9,7 @@
   "license": "GPL-2.0+",
   "scripts": {
     "build": "grunt --verbose",
-    "prepublish": "grunt --verbose"
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "react": ">=14.x"
