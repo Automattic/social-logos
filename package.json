@@ -16,7 +16,11 @@
   },
   "files": [
     "build/index.js",
-    "build/example.js"
+    "build/example.js",
+    "icon-font",
+    "svg",
+    "svg-min",
+    "svg-sprite"
   ],
   "devDependencies": {
     "babel-plugin-add-module-exports": "0.2.1",
