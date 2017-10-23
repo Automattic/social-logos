@@ -12,7 +12,8 @@
     "prepublish": "npm run build"
   },
   "peerDependencies": {
-    "react": ">=14.x"
+    "prop-types": ">=15.6.0",
+    "react": ">=15.6.0"
   },
   "files": [
     "build/index.js",
