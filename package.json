@@ -1,6 +1,6 @@
 {
   "name": "social-logos",
-  "version": "1.0.2-alpha.3",
+  "version": "2.0.0-alpha.1",
   "main": "build/index.js",
   "repository": {
     "type": "git",
