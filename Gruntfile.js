@@ -78,6 +78,31 @@ module.exports = function( grunt ) {
 				dest: 'docs/social-logos.svg'
 			}
 		},
+    
+		webfont: {
+			icons: {
+				src: 'svg-min/*.svg',
+				dest: 'icon-font'
+			},
+			options: {
+				'engine': 'node',
+				'autoHint': false,
+				'normalize': true,
+				'optimize': false,
+				'font': 'social-logos',
+				'types': 'eot,woff2,woff,ttf',
+				'order': 'eot,woff,ttf',
+				'embed': true,
+				'descent': 0,
+				'htmlDemoTemplate': 'sources/icon-font/demo-template.html',
+				templateOptions: {
+					baseClass: 'social-logo',
+					classPrefix: 'social-logo-',
+					mixinPrefix: 'social-logo-'
+				},
+				codepointsFile: 'codepoints.json'
+			}
+		},
 
 		babel: {
 			options: {
@@ -182,6 +207,7 @@ module.exports = function( grunt ) {
     'svg-transform-to-camelcase',
     'svg-to-react',
     'babel',
+    'webfont',
     'svg-transform-add-square',
     'svg-to-pdf',
     'clean'
