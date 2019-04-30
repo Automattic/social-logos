@@ -19,6 +19,7 @@ Official guideline resources:
 - Pinterest: https://business.pinterest.com/en/brand-guidelines
 - Squarespace: http://www.squarespace.com/brand-guidelines/
 - reddit: https://www.reddit.com/about/alien/
+- Mastodon: https://joinmastodon.org/press-kit.zip
 - http://findguidelin.es
 
 ## Using the SocialLogo Component in your project:
