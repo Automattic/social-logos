@@ -22,7 +22,6 @@ OR if you're looking to change how SVGs get output, you'll need to edit strings 
 
 
 function get_social_logo( $social_logo ) {
-	$svg = "";
 
 	switch ( $social_logo ) {
 		case 'amazon':
