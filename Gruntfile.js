@@ -92,17 +92,15 @@ module.exports = function( grunt ) {
 				'autoHint': false,
 				'normalize': true,
 				'optimize': false,
-				'syntax': 'bootstrap',
 				'font': 'social-logos',
-				'types': 'woff2,woff,ttf',
-				'order': 'woff,ttf',
-				'embed': true,
+				'types': 'woff2',
+				'embed': ['woff2'],
 				'descent': 0,
 				'htmlDemoTemplate': 'sources/icon-font/demo-template.html',
 				templateOptions: {
 					baseClass: 'social-logo',
-					classPrefix: 'social-logo-',
-					mixinPrefix: 'social-logo-'
+					classPrefix: 'social-logo__',
+					mixinPrefix: 'social-logo__'
 				},
 				codepointsFile: 'codepoints.json'
 			}

@@ -1,5 +1,8 @@
 _The versioning refers to the React component build._
 
+#### v2.6.0 (2023-07-19)
+* Updated icon font tooling. It now only includes an embedded woff2 font.
+
 #### v2.5.4 (2023-07-10)
 * Added Threads icon.
 
