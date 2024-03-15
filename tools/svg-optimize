@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Rudimentary safety check.
+[[ ! -f "tools/svg-optimize" ]] && echo 'Please run this from package root!' && return 1;
+
+# Define some paths.
+src_svg_dir=src/svg
+dest_svg_dir=build/svg-clean
+config_file=tools/svgo.config.mjs
+
+# Optimize SVGs
+npx svgo --config="$config_file" -f "$src_svg_dir" -o "$dest_svg_dir" -q
+
+for i in "$dest_svg_dir"/*.svg; do
+	# Add <rect> and <g> to SVG innards.
+	# This was done previously, though I'm not sure why.
+	sed -E -i.bak 's|(>)(.*)(</svg>)|\1<rect x="0" fill="none" width="24" height="24"/><g>\2</g>\3|' "$i" && rm "$i.bak"
+done
+
+# Output.
+echo "Created optimized SVGs in '$dest_svg_dir'."

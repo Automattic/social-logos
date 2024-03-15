@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Rudimentary safety check
+[[ ! -f "tools/clean" ]] && echo 'Please run this from package root!' && return 1;
+
+# Clean up old build files.
+rm -rf build
+
+# Output.
+echo "Cleaned up old build files."

@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Rudimentary safety check
+[[ ! -f "tools/build" ]] && echo 'Please run this from package root!' && return 1;
+
+# Output.
+echo 'Starting full build...'
+
+# Run through full build flow.
+. tools/clean &&
+. tools/svg-optimize &&
+. tools/svg-to-php &&
+. tools/svg-to-sprite &&
+node tools/svg-to-font.js &&
+node tools/svg-to-react-data &&
+. tools/build-react &&
+echo 'Build complete.' ||
+echo 'Build failure!'
