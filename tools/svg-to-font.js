@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 const svgDir='build/svg-clean';
+const codepointsFile = 'src/font/codepoints.json';
 const destFontDir='build/font';
 const cssFile = destFontDir + '/social-logos.css';
-const codepointsFile = 'src/font/codepoints.json';
 const woff2FontFile = destFontDir + '/social-logos.woff2';
 
 const fs = require('fs');
@@ -59,6 +59,7 @@ const generateCSS = woff2Buffer => {
 	// console.log('Wrote CSS file.');
 }
 
+// Make dir if it doesn't exist.
 if (!fs.existsSync(destFontDir)){
 	fs.mkdirSync(destFontDir, { recursive: true });
 }

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const svgDir='build/svg-clean';
-const srcDataFile='src/react/social-logo-data.jsx';
+const destReactDir='build/react';
+const destDataFile = destReactDir + '/social-logo-data.jsx';
 
 const fs = require('fs');
 const path = require('path');
@@ -18,6 +19,11 @@ function kebabToCamelCase( name ) {
 	return name.replace( KEBAB_REGEX, function replacer( match, capture ) {
 		return capture.toUpperCase();
 	} );
+}
+
+// Make dir if it doesn't exist.
+if (!fs.existsSync(destReactDir)){
+	fs.mkdirSync(destReactDir, { recursive: true });
 }
 
 let socialLogoData = `/** This is a generated file. Do not edit. */
@@ -62,4 +68,5 @@ files.forEach( file => {
 socialLogoData += `
 ]`;
 
-fs.writeFileSync(srcDataFile, socialLogoData);
+fs.writeFileSync(destDataFile, socialLogoData);
+console.log(`Created React SVG data file in '${destReactDir}'.`);
