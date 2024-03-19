@@ -22,7 +22,7 @@ EOF
 for i in "$svg_dir"/*.svg; do
 	# Get logo name and add it as a PHP array key.
 	logoName=$(basename $i | cut -d. -f1)
-	echo -ne "\t\t'$logoName' => '" >> $dest_php_file
+	printf "\t\t'%s' => '" "$logoName" >> $dest_php_file
 
 	# Get SVG value, add some classes, and add it as a PHP array value.
 	sed -E "s|<svg |<svg class=\"social-logo social-logo-$logoName\" height=\"24\" width=\"24\" |" $i >> $dest_php_file
