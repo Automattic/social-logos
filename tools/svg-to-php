@@ -9,7 +9,7 @@ dest_php_dir=build/php
 dest_php_file="$dest_php_dir"/social-logos.php
 
 # Make dir if it doesn't exist.
-mkdir -p $dest_php_dir
+mkdir -p "$dest_php_dir"
 
 # Output header to PHP file.
 cat <<"EOF" > $dest_php_file
