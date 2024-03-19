@@ -45,11 +45,12 @@ const generateCSS = woff2Buffer => {
 		cssCodepoints += name + ': \\' + codepoints[name].toString(16) + '\n';
 	}
 	let cssContent = `@font-face {
-		font-family:"social-logos";
-		src: url(data:application/octet-stream;base64,${base64Font}
+		font-family: 'social-logos';
+		src: url(
+			data:application/octet-stream;base64,${base64Font}
 		) format('woff2');
-		font-weight:normal;
-		font-style:normal;
+		font-weight: normal;
+		font-style: normal;
 	}
 	
 	/*
