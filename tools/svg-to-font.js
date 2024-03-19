@@ -71,7 +71,7 @@ let maxCodepoint = Math.max(...Object.values(codepoints))
 let fontBuffer = Buffer.alloc(0);
 
 const fontStream = new SVGIcons2SVGFontStream({
-  fontName: 'social-logos',
+	fontName: 'social-logos',
 	descent: 0,
 	normalize: true,
 	fontHeight: 300,
