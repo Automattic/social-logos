@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
-# Rudimentary safety check.
-[[ ! -f "tools/build-react" ]] && echo 'Please run this from package root!' && return 1;
-
 # Define some paths.
 src_react_dir=src/react
 src_css_dir=src/css
 dest_react_dir=build/react
+
+# Start in the right folder.
+root_dir="$(dirname "${BASH_SOURCE[0]}")/.."
+cd "$root_dir"
 
 # Make dir if it doesn't exist.
 mkdir -p "$dest_react_dir"

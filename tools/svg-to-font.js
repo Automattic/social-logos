@@ -5,12 +5,17 @@ const destFontDir='build/font';
 const cssFile = destFontDir + '/social-logos.css';
 const woff2FontFile = destFontDir + '/social-logos.woff2';
 
+const process = require('process');
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 const SVGIcons2SVGFontStream = require('svgicons2svgfont');
 const svg2ttf = require('svg2ttf');
 const wawoff2 = require('wawoff2');
+
+// Start in the right folder.
+const rootDir = __dirname + '/..';
+process.chdir(rootDir);
 
 const getCodepoint = name => {
 	// If a codepoint for this name does not yet exist, create one.

@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-# Rudimentary safety check
-[[ ! -f "tools/clean" ]] && echo 'Please run this from package root!' && return 1;
+# Start in the right folder.
+root_dir="$(dirname "${BASH_SOURCE[0]}")/.."
+cd "$root_dir"
 
 # Clean up old build files.
 rm -rf build

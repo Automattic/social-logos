@@ -3,10 +3,15 @@ const svgDir='build/svg-clean';
 const destReactDir='build/react';
 const destDataFile = destReactDir + '/social-logo-data.jsx';
 
+const process = require('process');
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 const xml2js = require( 'xml2js' );
+
+// Start in the right folder.
+const rootDir = __dirname + '/..';
+process.chdir(rootDir);
 
 /**
  * Transforms kebab case names to camel case
