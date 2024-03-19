@@ -14,6 +14,9 @@ dest_sprite_filename="$dest_sprite_dir"/social-logos.svg
 # Make dir if it doesn't exist.
 mkdir -p "$dest_sprite_dir"
 
+# Ensure consistent sort order.
+LC_COLLATE=C
+
 # Generate SVG sprite file.
 npx svgstore -o "$dest_sprite_filename" --inline "$src_svg_dir"/*.svg
 

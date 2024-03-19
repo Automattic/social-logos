@@ -20,6 +20,9 @@ function get_all_social_logos() {
 	return array(
 EOF
 
+# Ensure consistent sort order.
+LC_COLLATE=C
+
 for i in "$svg_dir"/*.svg; do
 	# Get logo name and add it as a PHP array key.
 	logoName=$(basename $i | cut -d. -f1)
