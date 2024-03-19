@@ -32,7 +32,7 @@
     "xml2js": "^0.6.2"
   },
   "scripts": {
-    "build": ". tools/build"
+    "build": "./tools/build"
   },
   "volta": {
     "node": "16.8.0",

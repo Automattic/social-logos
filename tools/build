@@ -7,12 +7,12 @@
 echo 'Starting full build...'
 
 # Run through full build flow.
-. tools/clean &&
-. tools/svg-optimize &&
-. tools/svg-to-php &&
-. tools/svg-to-sprite &&
-node tools/svg-to-font.js &&
-node tools/svg-to-react-data &&
-. tools/build-react &&
+./tools/clean &&
+./tools/svg-optimize &&
+./tools/svg-to-php &&
+./tools/svg-to-sprite &&
+./tools/svg-to-font.js &&
+./tools/svg-to-react-data.js &&
+./tools/build-react &&
 echo 'Build complete.' ||
 echo 'Build failure!'
