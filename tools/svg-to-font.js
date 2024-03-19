@@ -30,7 +30,7 @@ const writeCodepoints = () => {
 }
 
 const svg2woff2 = async (fontBuffer) => {
-	ttf = svg2ttf(fontBuffer.toString(), {});
+	const ttf = svg2ttf(fontBuffer.toString(), {});
 	const woff2Data = await wawoff2.compress(ttf.buffer);
 	fs.writeFileSync(woff2FontFile, woff2Data);
 	// console.log('WOFF2 font created.');
