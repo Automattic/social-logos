@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const svgDir='build/svg-clean';
+const srcSvgDir='src/svg';
 const codepointsFile = 'src/font/codepoints.json';
 const destFontDir='build/font';
 const cssFile = destFontDir + '/social-logos.css';
@@ -9,6 +10,7 @@ const process = require('process');
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
+const { execSync } = require('child_process');
 const SVGIcons2SVGFontStream = require('svgicons2svgfont');
 const svg2ttf = require('svg2ttf');
 const wawoff2 = require('wawoff2');
@@ -35,7 +37,12 @@ const writeCodepoints = () => {
 }
 
 const svg2woff2 = async (fontBuffer) => {
-	const ttf = svg2ttf(fontBuffer.toString(), {});
+	// Grab timestamp of last commit that affected the source SVG folder. TTFs
+	// store timestamp as per spec, and svg2ttf has an override we can use to
+	// prevent generating a slightly different font file on each run.
+	const last_svg_commit_timestamp = execSync('git log -1 --first-parent --format=%ct ' + srcSvgDir).toString().trim();
+
+	const ttf = svg2ttf(fontBuffer.toString(), {ts: last_svg_commit_timestamp});
 	const woff2Data = await wawoff2.compress(ttf.buffer);
 	fs.writeFileSync(woff2FontFile, woff2Data);
 	// console.log('WOFF2 font created.');
