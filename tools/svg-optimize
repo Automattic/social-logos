@@ -16,9 +16,8 @@ mkdir -p "$dest_svg_dir"
 npx svgo --config="$config_file" -f "$src_svg_dir" -o "$dest_svg_dir" -q
 
 for i in "$dest_svg_dir"/*.svg; do
-	# Add <rect> and <g> to SVG innards.
-	# This was done previously, though I'm not sure why.
-	sed -E -i.bak 's|(>)(.*)(</svg>)|\1<rect x="0" fill="none" width="24" height="24"/><g>\2</g>\3|' "$i" && rm "$i.bak"
+	# Add <g> to SVG innards.
+	sed -E -i.bak 's|(>)(.*)(</svg>)|\1<g>\2</g>\3|' "$i" && rm "$i.bak"
 done
 
 # Output.
