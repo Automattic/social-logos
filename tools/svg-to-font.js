@@ -56,17 +56,18 @@ const generateCSS = woff2Buffer => {
 	for ( var name in codepoints ) {
 		cssCodepoints += name + ': \\' + codepoints[name].toString(16) + '\n';
 	}
-	let cssContent = `@font-face {
-		font-family: 'social-logos';
-		src: url(
-			data:application/octet-stream;base64,${base64Font}
-		) format('woff2');
-		font-weight: normal;
-		font-style: normal;
-	}
-	
-	/*
-	${cssCodepoints}*/`;
+	let cssContent = `/* This is a generated file. Do not edit. */
+@font-face {
+	font-family: 'social-logos';
+	src: url(
+		data:application/octet-stream;base64,${base64Font}
+	) format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+${cssCodepoints}*/`;
 	fs.writeFile( cssFile, cssContent, () => {} );
 
 	// console.log('Wrote CSS file.');
