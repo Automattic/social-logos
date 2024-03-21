@@ -10,7 +10,7 @@ const process = require('process');
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
-const { execSync } = require('child_process');
+const { spawnSync } = require('child_process');
 const SVGIcons2SVGFontStream = require('svgicons2svgfont');
 const svg2ttf = require('svg2ttf');
 const wawoff2 = require('wawoff2');
@@ -40,7 +40,7 @@ const svg2woff2 = async (fontBuffer) => {
 	// Grab timestamp of last commit that affected the source SVG folder. TTFs
 	// store timestamp as per spec, and svg2ttf has an override we can use to
 	// prevent generating a slightly different font file on each run.
-	const last_svg_commit_timestamp = execSync('git log -1 --first-parent --format=%ct ' + srcSvgDir).toString().trim();
+	const last_svg_commit_timestamp = spawnSync( 'git', [ 'log', '-1', '--first-parent', '--format=%ct', srcSvgDir ] ).stdout.toString().trim();
 
 	const ttf = svg2ttf(fontBuffer.toString(), {ts: last_svg_commit_timestamp});
 	const woff2Data = await wawoff2.compress(ttf.buffer);
