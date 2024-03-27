@@ -11,9 +11,9 @@
   },
   "license": "GPL-2.0+",
   "files": [
-    "react/index.js",
-    "react/example.js",
-    "svg-sprite/social-logos.svg"
+    "build/",
+    "!build/svg-clean",
+    "!build/php"
   ],
   "dependencies": {
     "prop-types": "^15.5.7"
