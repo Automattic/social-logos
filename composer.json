@@ -1,0 +1,26 @@
+{
+	"name": "automattic/social-logos",
+	"description": "A repository of all the social logos used on WordPress.com.",
+	"type": "library",
+	"license": "GPL-2.0-or-later",
+	"require": {},
+	"require-dev": {
+		"automattic/jetpack-changelogger": "^4.2.4"
+	},
+	"scripts": {
+		"build-development": "./tools/build",
+		"build-production": "./tools/build --prod"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"autorelease": true,
+		"autotagger": true,
+		"npmjs-autopublish": true,
+		"mirror-repo": "Automattic/social-logos",
+		"release-branch-prefix": "social-logos",
+		"changelogger": {
+			"link-template": "https://github.com/Automattic/social-logos/compare/v${old}...v${new}"
+		}
+	}
+}
