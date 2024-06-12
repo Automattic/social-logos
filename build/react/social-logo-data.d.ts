@@ -6,16 +6,22 @@ export declare const SocialLogoData: readonly [{
     readonly name: "behance";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "blogger";
+    readonly name: "blogger-alt";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "blogger-alt";
+    readonly name: "blogger";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "bluesky";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "codepen";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
+    readonly name: "deezer";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
+    readonly name: "discord";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "dribbble";
@@ -45,25 +51,31 @@ export declare const SocialLogoData: readonly [{
     readonly name: "ghost";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "github";
+    readonly name: "git";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "google";
+    readonly name: "github";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "google-alt";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
+    readonly name: "google-plus-alt";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
     readonly name: "google-plus";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "google-plus-alt";
+    readonly name: "google";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "instagram";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "json-feed";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
+    readonly name: "line";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "link";
@@ -78,10 +90,13 @@ export declare const SocialLogoData: readonly [{
     readonly name: "mastodon";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
+    readonly name: "medium-alt";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
     readonly name: "medium";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "medium-alt";
+    readonly name: "messenger";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "microblog";
@@ -93,10 +108,10 @@ export declare const SocialLogoData: readonly [{
     readonly name: "patreon";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "pinterest";
+    readonly name: "pinterest-alt";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "pinterest-alt";
+    readonly name: "pinterest";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "pocket";
@@ -106,6 +121,9 @@ export declare const SocialLogoData: readonly [{
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "print";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
+    readonly name: "quora";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "reddit";
@@ -118,6 +136,12 @@ export declare const SocialLogoData: readonly [{
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "sms";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
+    readonly name: "snapchat";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
+    readonly name: "soundcloud";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "spotify";
@@ -141,31 +165,37 @@ export declare const SocialLogoData: readonly [{
     readonly name: "threads";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "tiktok";
+    readonly name: "tiktok-alt";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "tiktok-alt";
+    readonly name: "tiktok";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "tripadvisor";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "tumblr";
+    readonly name: "tumblr-alt";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "tumblr-alt";
+    readonly name: "tumblr";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "twitch";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "twitter";
-    readonly svg: import("react/jsx-runtime").JSX.Element;
-}, {
     readonly name: "twitter-alt";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
+    readonly name: "twitter";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
+    readonly name: "untappd";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
     readonly name: "vimeo";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
+    readonly name: "vk";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
     readonly name: "whatsapp";

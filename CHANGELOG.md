@@ -1,3 +1,25 @@
+## [3.1.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- New icon: `deezer`
+- New icon: `discord`
+- New icon: `git`
+- New icon: `line`
+- New icon: `messenger`
+- New icon: `quora`
+- New icon: `snapchat`
+- New icon: `soundcloud`
+- New icon: `untappd`
+- New icon: `vk`
+
+### Fixed
+- Build: Better error handling.
+- Build: Ensure consistent filename sort.
+- Build: Fonts folder was missing.
+- Build: React was missing example CSS file.
+
 ## [3.0.2] - 2024-06-05
 ### Changed
 - Updated package dependencies. [#37706]
@@ -102,6 +124,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.1.0-alpha]: https://github.com/Automattic/social-logos/compare/v3.0.2...v3.1.0-alpha
 [3.0.2]: https://github.com/Automattic/social-logos/compare/v3.0.1...v3.0.2
 [3.0.1]: https://github.com/Automattic/social-logos/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/Automattic/social-logos/compare/v2.5.9...v3.0.0
