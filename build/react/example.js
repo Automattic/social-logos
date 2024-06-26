@@ -4,7 +4,7 @@ const jsx_runtime_1 = require("react/jsx-runtime");
 const react_1 = require("react");
 const social_logo_1 = require("./social-logo");
 const social_logo_data_1 = require("./social-logo-data");
-require("./example.css");
+require("../css/example.css");
 /**
  * An example React component that displays all the social logos.
  *

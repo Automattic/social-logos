@@ -1,4 +1,4 @@
-import './example.css';
+import '../css/example.css';
 /**
  * An example React component that displays all the social logos.
  *
