@@ -1,9 +1,6 @@
-## [3.1.3-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.1.3] - 2024-06-26
 ### Added
-- Add: Substack logo
+- Add: Substack logo [#38036]
 
 ## [3.1.2] - 2024-06-24
 ### Fixed
@@ -136,7 +133,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.1.3-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.2...v3.1.3-alpha
+[3.1.3]: https://github.com/Automattic/social-logos/compare/v3.1.2...v3.1.3
 [3.1.2]: https://github.com/Automattic/social-logos/compare/v3.1.1...v3.1.2
 [3.1.1]: https://github.com/Automattic/social-logos/compare/v3.1.0...v3.1.1
 [3.1.0]: https://github.com/Automattic/social-logos/compare/v3.0.2...v3.1.0
