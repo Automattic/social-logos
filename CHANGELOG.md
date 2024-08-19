@@ -1,3 +1,10 @@
+## [3.1.5-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Lossless image optimization for images (should improve performance with no visible changes).
+
 ## [3.1.4] - 2024-08-15
 ### Changed
 - Updated package dependencies. [#38665]
@@ -137,6 +144,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.1.5-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.4...v3.1.5-alpha
 [3.1.4]: https://github.com/Automattic/social-logos/compare/v3.1.3...v3.1.4
 [3.1.3]: https://github.com/Automattic/social-logos/compare/v3.1.2...v3.1.3
 [3.1.2]: https://github.com/Automattic/social-logos/compare/v3.1.1...v3.1.2
