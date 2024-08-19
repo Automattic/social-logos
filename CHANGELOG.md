@@ -1,9 +1,6 @@
-## [3.1.5-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.1.5] - 2024-08-19
 ### Fixed
-- Lossless image optimization for images (should improve performance with no visible changes).
+- Lossless image optimization for images (should improve performance with no visible changes). [#38750]
 
 ## [3.1.4] - 2024-08-15
 ### Changed
@@ -144,7 +141,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.1.5-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.4...v3.1.5-alpha
+[3.1.5]: https://github.com/Automattic/social-logos/compare/v3.1.4...v3.1.5
 [3.1.4]: https://github.com/Automattic/social-logos/compare/v3.1.3...v3.1.4
 [3.1.3]: https://github.com/Automattic/social-logos/compare/v3.1.2...v3.1.3
 [3.1.2]: https://github.com/Automattic/social-logos/compare/v3.1.1...v3.1.2
