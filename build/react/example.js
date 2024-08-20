@@ -8,7 +8,7 @@ require("../css/example.css");
 /**
  * An example React component that displays all the social logos.
  *
- * @returns {React.Component} The `SocialLogosExample` component.
+ * @return {React.Component} The `SocialLogosExample` component.
  */
 function SocialLogosExample() {
     const [useSmallIcons, setUseSmallIcons] = (0, react_1.useState)(false);
