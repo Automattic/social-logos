@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const jsx_runtime_1 = require("react/jsx-runtime");
+/* eslint-disable no-alert -- ok for demo */
 const react_1 = require("react");
 const social_logo_1 = require("./social-logo");
 const social_logo_data_1 = require("./social-logo-data");
