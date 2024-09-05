@@ -1,3 +1,10 @@
+## [3.1.8-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Address React usage issues found by eslint in example.tsx.
+
 ## [3.1.7] - 2024-08-23
 ### Changed
 - Internal updates.
@@ -149,6 +156,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.1.8-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.7...v3.1.8-alpha
 [3.1.7]: https://github.com/Automattic/social-logos/compare/v3.1.6...v3.1.7
 [3.1.6]: https://github.com/Automattic/social-logos/compare/v3.1.5...v3.1.6
 [3.1.5]: https://github.com/Automattic/social-logos/compare/v3.1.4...v3.1.5
