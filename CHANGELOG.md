@@ -1,9 +1,6 @@
-## [3.1.9-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.1.9] - 2024-10-14
 ### Fixed
-- Add `key` in React example to make it more correct.
+- Add `key` in React example to make it more correct. [#39709]
 
 ## [3.1.8] - 2024-09-05
 ### Fixed
@@ -160,7 +157,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.1.9-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.8...v3.1.9-alpha
+[3.1.9]: https://github.com/Automattic/social-logos/compare/v3.1.8...v3.1.9
 [3.1.8]: https://github.com/Automattic/social-logos/compare/v3.1.7...v3.1.8
 [3.1.7]: https://github.com/Automattic/social-logos/compare/v3.1.6...v3.1.7
 [3.1.6]: https://github.com/Automattic/social-logos/compare/v3.1.5...v3.1.6
