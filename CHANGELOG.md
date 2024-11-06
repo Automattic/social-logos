@@ -5,6 +5,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added post-build tests.
 
+### Changed
+- Updated package dependencies.
+
 ## [3.1.10] - 2024-10-25
 ### Changed
 - Updated package dependencies. [#39893]
