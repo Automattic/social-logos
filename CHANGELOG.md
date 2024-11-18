@@ -1,3 +1,10 @@
+## [3.1.13-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update example with ids for jsx-a11y/label-has-associated-control.
+
 ## [3.1.12] - 2024-11-14
 ### Changed
 - Update dependencies.
@@ -172,6 +179,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.1.13-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.12...v3.1.13-alpha
 [3.1.12]: https://github.com/Automattic/social-logos/compare/v3.1.11...v3.1.12
 [3.1.11]: https://github.com/Automattic/social-logos/compare/v3.1.10...v3.1.11
 [3.1.10]: https://github.com/Automattic/social-logos/compare/v3.1.9...v3.1.10
