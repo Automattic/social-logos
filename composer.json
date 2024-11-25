@@ -5,11 +5,11 @@
 	"license": "GPL-2.0-or-later",
 	"require": {},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^4.2.4"
+		"automattic/jetpack-changelogger": "^5.1.0-alpha"
 	},
 	"scripts": {
 		"build-development": "./tools/build",
-		"build-production": "./tools/build --prod"
+		"build-production": "./tools/build && ./tests/tests.js"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
@@ -18,7 +18,6 @@
 		"autotagger": true,
 		"npmjs-autopublish": true,
 		"mirror-repo": "Automattic/social-logos",
-		"release-branch-prefix": "social-logos",
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/social-logos/compare/v${old}...v${new}"
 		}
