@@ -5,6 +5,17 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Deprecated
+- Default import is now deprecated in favor of named import and will be removed in future.
+  
+  ```diff
+  - import SocialLogos from 'social-logos';
+  + import { SocialLogo } from 'social-logos';
+  ```
+
+### Fixed
+- Fixed package.json exports to expose built in types
+
 ## [3.1.15] - 2024-12-16
 ### Changed
 - Internal updates.

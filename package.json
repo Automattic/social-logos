@@ -6,9 +6,12 @@
 	"bugs": {
 		"url": "https://github.com/Automattic/jetpack/labels/[JS Package] Social Logos"
 	},
+	"main": "build/react/index.js",
+	"module": "build/react/index.js",
+	"types": "build/react/index.d.ts",
 	"exports": {
 		".": "./build/react/index.js",
-		"./svg-sprite/social-logos.svg": "./build/svg-sprite/social-logos.svg",
+		"./svg-sprite/*": "./build/svg-sprite/*",
 		"./font/*": "./build/font/*"
 	},
 	"peerDependencies": {
