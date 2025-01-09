@@ -1,9 +1,6 @@
-## [3.1.17-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.1.17] - 2025-01-09
 ### Fixed
-- Removed .module entry for it being a commonjs package
+- Removed `module` in package.json given it's a CommonJS package. [#40867]
 
 ## [3.1.16] - 2025-01-06
 ### Changed
@@ -201,7 +198,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.1.17-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.16...v3.1.17-alpha
+[3.1.17]: https://github.com/Automattic/social-logos/compare/v3.1.16...v3.1.17
 [3.1.16]: https://github.com/Automattic/social-logos/compare/v3.1.15...v3.1.16
 [3.1.15]: https://github.com/Automattic/social-logos/compare/v3.1.14...v3.1.15
 [3.1.14]: https://github.com/Automattic/social-logos/compare/v3.1.13...v3.1.14
