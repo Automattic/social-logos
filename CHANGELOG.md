@@ -1,3 +1,10 @@
+## [3.1.20-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Code: Update stylesheets to use WordPress font styles.
+
 ## [3.1.19] - 2025-04-01
 ### Changed
 - Update package dependencies. [#42762]
@@ -206,6 +213,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.1.20-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.19...v3.1.20-alpha
 [3.1.19]: https://github.com/Automattic/social-logos/compare/v3.1.18...v3.1.19
 [3.1.18]: https://github.com/Automattic/social-logos/compare/v3.1.17...v3.1.18
 [3.1.17]: https://github.com/Automattic/social-logos/compare/v3.1.16...v3.1.17
