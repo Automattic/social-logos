@@ -3,6 +3,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Fixed
+- Code: Update stylesheets to use hex instead of named colors.
 - Code: Update stylesheets to use WordPress font styles.
 
 ## [3.1.19] - 2025-04-01
