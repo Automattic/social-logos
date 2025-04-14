@@ -1,11 +1,7 @@
-## [3.1.20-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.1.20] - 2025-04-14
 ### Fixed
-- Code: Update stylesheets to use hex instead of named colors.
-- Code: Update stylesheets to use WordPress font styles.
-- Linting: Use double colon notation for pseudo-element selectors.
+- Linting: Update stylesheets to use WordPress rules for fonts and colors. [#42920] [#42928]
+- Linting: Use double colon notation for pseudo-element selectors. [#43019]
 
 ## [3.1.19] - 2025-04-01
 ### Changed
@@ -215,7 +211,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.1.20-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.19...v3.1.20-alpha
+[3.1.20]: https://github.com/Automattic/social-logos/compare/v3.1.19...v3.1.20
 [3.1.19]: https://github.com/Automattic/social-logos/compare/v3.1.18...v3.1.19
 [3.1.18]: https://github.com/Automattic/social-logos/compare/v3.1.17...v3.1.18
 [3.1.17]: https://github.com/Automattic/social-logos/compare/v3.1.16...v3.1.17
