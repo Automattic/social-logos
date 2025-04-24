@@ -3,6 +3,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Fixed
+- Code: Use modern font MIME types for inline fonts.
 - Linting: Fix more Stylelint violations.
 
 ## [3.1.20] - 2025-04-14
