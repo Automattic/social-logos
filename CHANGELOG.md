@@ -1,10 +1,7 @@
-## [3.1.21-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.1.21] - 2025-04-28
 ### Fixed
-- Code: Use modern font MIME types for inline fonts.
-- Linting: Fix more Stylelint violations.
+- Code: Use modern font MIME types for inline fonts. [#43227]
+- Linting: Fix more Stylelint violations. [#43213]
 
 ## [3.1.20] - 2025-04-14
 ### Fixed
@@ -219,7 +216,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.1.21-alpha]: https://github.com/Automattic/social-logos/compare/v3.1.20...v3.1.21-alpha
+[3.1.21]: https://github.com/Automattic/social-logos/compare/v3.1.20...v3.1.21
 [3.1.20]: https://github.com/Automattic/social-logos/compare/v3.1.19...v3.1.20
 [3.1.19]: https://github.com/Automattic/social-logos/compare/v3.1.18...v3.1.19
 [3.1.18]: https://github.com/Automattic/social-logos/compare/v3.1.17...v3.1.18
