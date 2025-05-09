@@ -132,9 +132,6 @@ export declare const SocialLogoData: readonly [{
     readonly name: "share";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
-    readonly name: "skype";
-    readonly svg: import("react/jsx-runtime").JSX.Element;
-}, {
     readonly name: "sms";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
