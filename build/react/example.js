@@ -13,7 +13,7 @@ require("../css/example.css");
  * @param {string}  props.name          - Logo name.
  * @param {number}  props.iconSize      - Icon size.
  * @param {boolean} props.showIconNames - Whether to show icon names.
- * @return {React.Component} The `SocialLogoItemExample` component.
+ * @return {Component} The `SocialLogoItemExample` component.
  */
 function SocialLogoItemExample({ name, iconSize, showIconNames }) {
     const handleClick = (0, react_1.useCallback)(() => {
@@ -25,7 +25,7 @@ function SocialLogoItemExample({ name, iconSize, showIconNames }) {
 /**
  * An example React component that displays all the social logos.
  *
- * @return {React.Component} The `SocialLogosExample` component.
+ * @return {Component} The `SocialLogosExample` component.
  */
 function SocialLogosExample() {
     const [useSmallIcons, setUseSmallIcons] = (0, react_1.useState)(false);

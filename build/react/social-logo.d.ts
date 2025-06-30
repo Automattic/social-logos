@@ -1,6 +1,7 @@
-import React, { PureComponent } from 'react';
+import { PureComponent } from 'react';
 import { SocialLogoData } from './social-logo-data';
-export type SocialLogoProps = React.SVGAttributes<SVGSVGElement> & {
+import type { SVGAttributes } from 'react';
+export type SocialLogoProps = SVGAttributes<SVGSVGElement> & {
     icon: (typeof SocialLogoData)[number]['name'];
     size?: number;
 };
