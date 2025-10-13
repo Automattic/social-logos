@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Reddit: update logo to match new design.
+- Woo: update logo to match recent redesign.
 
 ## [3.2.11] - 2025-10-02
 ### Changed
