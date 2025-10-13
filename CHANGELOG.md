@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Reddit: update logo to match new design.
+- Update Pocketcasts name to Pocket Casts (with a space).
 - Update the official Reddit color to match guidelines.
 - Woo: update logo to match recent redesign.
 
