@@ -1,16 +1,11 @@
-## [3.3.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.3.0] - 2025-10-13
 ### Added
-- Add a new Apple Podcasts logo
-- Add new Pocketcasts logo
+- Add a new Apple Podcasts logo. [#45436]
+- Add new Pocket Casts logo. [#45438] [#45485]
 
 ### Changed
-- Reddit: update logo to match new design.
-- Update Pocketcasts name to Pocket Casts (with a space).
-- Update the official Reddit color to match guidelines.
-- Woo: update logo to match recent redesign.
+- Reddit: Update logo to match new design. [#45437] [#45484]
+- Woo: Update logo to match recent redesign. [#45435]
 
 ## [3.2.11] - 2025-10-02
 ### Changed
@@ -278,7 +273,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.3.0-alpha]: https://github.com/Automattic/social-logos/compare/v3.2.11...v3.3.0-alpha
+[3.3.0]: https://github.com/Automattic/social-logos/compare/v3.2.11...v3.3.0
 [3.2.11]: https://github.com/Automattic/social-logos/compare/v3.2.10...v3.2.11
 [3.2.10]: https://github.com/Automattic/social-logos/compare/v3.2.9...v3.2.10
 [3.2.9]: https://github.com/Automattic/social-logos/compare/v3.2.8...v3.2.9
