@@ -1,3 +1,10 @@
+## [3.3.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Add a new Apple Podcasts logo
+
 ## [3.2.11] - 2025-10-02
 ### Changed
 - Update package dependencies. [#45335]
@@ -264,6 +271,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.3.0-alpha]: https://github.com/Automattic/social-logos/compare/v3.2.11...v3.3.0-alpha
 [3.2.11]: https://github.com/Automattic/social-logos/compare/v3.2.10...v3.2.11
 [3.2.10]: https://github.com/Automattic/social-logos/compare/v3.2.9...v3.2.10
 [3.2.9]: https://github.com/Automattic/social-logos/compare/v3.2.8...v3.2.9
