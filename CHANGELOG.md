@@ -5,6 +5,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add a new Apple Podcasts logo
 
+### Changed
+- Reddit: update logo to match new design.
+
 ## [3.2.11] - 2025-10-02
 ### Changed
 - Update package dependencies. [#45335]
