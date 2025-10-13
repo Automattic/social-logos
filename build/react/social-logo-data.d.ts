@@ -120,6 +120,9 @@ export declare const SocialLogoData: readonly [{
     readonly name: "pocket";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {
+    readonly name: "pocketcasts";
+    readonly svg: import("react/jsx-runtime").JSX.Element;
+}, {
     readonly name: "polldaddy";
     readonly svg: import("react/jsx-runtime").JSX.Element;
 }, {

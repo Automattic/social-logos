@@ -4,6 +4,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a new Apple Podcasts logo
+- Add new Pocketcasts logo
 
 ### Changed
 - Reddit: update logo to match new design.
