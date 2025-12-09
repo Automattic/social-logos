@@ -1,9 +1,6 @@
-## [3.3.5-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.3.5] - 2025-12-08
 ### Fixed
-- `react` and `react-dom` should be peer dependencies, not direct dependencies.
+- Move `react` and `react-dom` to `devDependencies`. [#46167]
 
 ## [3.3.4] - 2025-11-18
 ### Changed
@@ -296,7 +293,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.3.5-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.4...v3.3.5-alpha
+[3.3.5]: https://github.com/Automattic/social-logos/compare/v3.3.4...v3.3.5
 [3.3.4]: https://github.com/Automattic/social-logos/compare/v3.3.3...v3.3.4
 [3.3.3]: https://github.com/Automattic/social-logos/compare/v3.3.2...v3.3.3
 [3.3.2]: https://github.com/Automattic/social-logos/compare/v3.3.1...v3.3.2
