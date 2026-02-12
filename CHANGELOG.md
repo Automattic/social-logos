@@ -1,3 +1,10 @@
+## [3.3.7-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Compatibility: Clean up deprecated CSS.
+
 ## [3.3.6] - 2026-02-04
 ### Changed
 - Update package dependencies. [#46936]
@@ -297,6 +304,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.3.7-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.6...v3.3.7-alpha
 [3.3.6]: https://github.com/Automattic/social-logos/compare/v3.3.5...v3.3.6
 [3.3.5]: https://github.com/Automattic/social-logos/compare/v3.3.4...v3.3.5
 [3.3.4]: https://github.com/Automattic/social-logos/compare/v3.3.3...v3.3.4
