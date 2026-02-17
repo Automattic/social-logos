@@ -1,12 +1,13 @@
-## [3.3.7-alpha] - unreleased
+## [3.3.8-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Set `.repository.url` in `package.json` to the mirror repo rather than the monorepo. Required for enabling provenance.
 
+## [3.3.7] - 2026-02-16
 ### Fixed
-- Compatibility: Clean up deprecated CSS.
+- Compatibility: Clean up deprecated CSS. [#47067]
 
 ## [3.3.6] - 2026-02-04
 ### Changed
@@ -307,7 +308,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.3.7-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.6...v3.3.7-alpha
+[3.3.8-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.7...v3.3.8-alpha
+[3.3.7]: https://github.com/Automattic/social-logos/compare/v3.3.6...v3.3.7
 [3.3.6]: https://github.com/Automattic/social-logos/compare/v3.3.5...v3.3.6
 [3.3.5]: https://github.com/Automattic/social-logos/compare/v3.3.4...v3.3.5
 [3.3.4]: https://github.com/Automattic/social-logos/compare/v3.3.3...v3.3.4
