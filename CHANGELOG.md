@@ -1,9 +1,6 @@
-## [3.3.9-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.3.9] - 2026-02-23
 ### Removed
-- Remove Pocket logo as the service is being discontinued. Pocket Casts logo remains available.
+- Remove Pocket logo as the service is being discontinued. Pocket Casts logo remains available. [#46879]
 
 ## [3.3.8] - 2026-02-18
 ### Changed
@@ -312,7 +309,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.3.9-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.8...v3.3.9-alpha
+[3.3.9]: https://github.com/Automattic/social-logos/compare/v3.3.8...v3.3.9
 [3.3.8]: https://github.com/Automattic/social-logos/compare/v3.3.7...v3.3.8
 [3.3.7]: https://github.com/Automattic/social-logos/compare/v3.3.6...v3.3.7
 [3.3.6]: https://github.com/Automattic/social-logos/compare/v3.3.5...v3.3.6
