@@ -2,6 +2,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ## [3.3.9] - 2026-02-23
 ### Removed
 - Remove Pocket logo as the service is being discontinued. Pocket Casts logo remains available. [#46879]
