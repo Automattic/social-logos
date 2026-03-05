@@ -1,3 +1,10 @@
+## [3.3.11-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Switch to Native TypeScript compiler based on Go.
+
 ## [3.3.10] - 2026-02-26
 ### Changed
 - Update package dependencies. [#47285]
@@ -313,6 +320,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.3.11-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.10...v3.3.11-alpha
 [3.3.10]: https://github.com/Automattic/social-logos/compare/v3.3.9...v3.3.10
 [3.3.9]: https://github.com/Automattic/social-logos/compare/v3.3.8...v3.3.9
 [3.3.8]: https://github.com/Automattic/social-logos/compare/v3.3.7...v3.3.8
