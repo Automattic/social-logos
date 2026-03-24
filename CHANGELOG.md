@@ -1,3 +1,10 @@
+## [3.3.12-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Build: Adjust CSS output to be compliant with Stylelint rules.
+
 ## [3.3.11] - 2026-03-09
 ### Changed
 - Switch to Native TypeScript compiler based on Go. [#47375]
@@ -317,6 +324,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.3.12-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.11...v3.3.12-alpha
 [3.3.11]: https://github.com/Automattic/social-logos/compare/v3.3.10...v3.3.11
 [3.3.10]: https://github.com/Automattic/social-logos/compare/v3.3.9...v3.3.10
 [3.3.9]: https://github.com/Automattic/social-logos/compare/v3.3.8...v3.3.9
