@@ -2,6 +2,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ### Fixed
 - Build: Adjust CSS output to be compliant with Stylelint rules.
 
