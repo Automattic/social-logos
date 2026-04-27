@@ -1,3 +1,10 @@
+## [3.3.14-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+
 ## [3.3.13] - 2026-04-27
 ### Changed
 - Internal updates.
@@ -328,6 +335,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.3.14-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.13...v3.3.14-alpha
 [3.3.13]: https://github.com/Automattic/social-logos/compare/v3.3.12...v3.3.13
 [3.3.12]: https://github.com/Automattic/social-logos/compare/v3.3.11...v3.3.12
 [3.3.11]: https://github.com/Automattic/social-logos/compare/v3.3.10...v3.3.11
