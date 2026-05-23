@@ -1,3 +1,10 @@
+## [3.3.16-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Expose social-logo-colors.css via a colors.css sub-path export, and define the missing --color-bluesky brand variable.
+
 ## [3.3.15] - 2026-05-19
 ### Changed
 - Internal updates.
@@ -336,6 +343,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.3.16-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.15...v3.3.16-alpha
 [3.3.15]: https://github.com/Automattic/social-logos/compare/v3.3.14...v3.3.15
 [3.3.14]: https://github.com/Automattic/social-logos/compare/v3.3.13...v3.3.14
 [3.3.13]: https://github.com/Automattic/social-logos/compare/v3.3.12...v3.3.13
