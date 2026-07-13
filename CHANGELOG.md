@@ -3,6 +3,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Comment: Prefix --color-* variables into --jetpack-social-logo-color-* CSS variables to avoid name collisions.
 - Update package dependencies.
 
 ## [3.3.16] - 2026-05-25
