@@ -1,10 +1,13 @@
-## [3.3.17-alpha] - unreleased
+## [3.3.18-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
-- Comment: Prefix --color-* variables into --jetpack-social-logo-color-* CSS variables to avoid name collisions.
 - Update package dependencies.
+
+## [3.3.17] - 2026-07-13
+### Changed
+- Update package dependencies. [#50375]
 
 ## [3.3.16] - 2026-05-25
 ### Added
@@ -348,7 +351,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Build: Refactored (aligned build system with Gridicons).
 
-[3.3.17-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.16...v3.3.17-alpha
+[3.3.18-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.17...v3.3.18-alpha
+[3.3.17]: https://github.com/Automattic/social-logos/compare/v3.3.16...v3.3.17
 [3.3.16]: https://github.com/Automattic/social-logos/compare/v3.3.15...v3.3.16
 [3.3.15]: https://github.com/Automattic/social-logos/compare/v3.3.14...v3.3.15
 [3.3.14]: https://github.com/Automattic/social-logos/compare/v3.3.13...v3.3.14
