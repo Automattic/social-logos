@@ -20,7 +20,7 @@ exports.SocialLogoData = void 0;
  */
 __exportStar(require("./social-logo"), exports);
 const social_logo_1 = require("./social-logo");
-const social_logo_data_1 = require("./social-logo-data");
+var social_logo_data_1 = require("./social-logo-data");
 Object.defineProperty(exports, "SocialLogoData", { enumerable: true, get: function () { return social_logo_data_1.SocialLogoData; } });
 /**
  * @deprecated Use named import instead - `import { SocialLogo } from 'social-logos';`

@@ -20,15 +20,6 @@ const prop_types_1 = __importDefault(require("prop-types"));
 const react_1 = require("react");
 const social_logo_data_1 = require("./social-logo-data");
 class SocialLogo extends react_1.PureComponent {
-    static defaultProps = {
-        size: 24,
-    };
-    static propTypes = {
-        icon: prop_types_1.default.string.isRequired,
-        size: prop_types_1.default.number,
-        onClick: prop_types_1.default.func,
-        className: prop_types_1.default.string,
-    };
     render() {
         const _a = this.props, { size, onClick, icon, className } = _a, otherProps = __rest(_a, ["size", "onClick", "icon", "className"]);
         const iconClass = ['social-logo', 'social-logo-' + icon, className]
@@ -36,10 +27,19 @@ class SocialLogo extends react_1.PureComponent {
             .join(' ');
         const logoData = social_logo_data_1.SocialLogoData.find(logo => logo.name === icon);
         if (!logoData) {
-            return jsx_runtime_1.jsx("svg", Object.assign({ height: size, width: size }, otherProps));
+            return (0, jsx_runtime_1.jsx)("svg", Object.assign({ height: size, width: size }, otherProps));
         }
         const svg = (0, react_1.cloneElement)(logoData.svg, Object.assign({ className: iconClass, height: size, width: size, onClick: onClick }, otherProps));
         return svg;
     }
 }
 exports.SocialLogo = SocialLogo;
+SocialLogo.defaultProps = {
+    size: 24,
+};
+SocialLogo.propTypes = {
+    icon: prop_types_1.default.string.isRequired,
+    size: prop_types_1.default.number,
+    onClick: prop_types_1.default.func,
+    className: prop_types_1.default.string,
+};
