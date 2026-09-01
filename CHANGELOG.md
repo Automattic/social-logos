@@ -1,3 +1,10 @@
+## [3.3.19-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update package dependencies.
+
 ## [3.3.18] - 2026-07-20
 ### Changed
 - Update package dependencies. [#50510]
@@ -348,6 +355,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.3.19-alpha]: https://github.com/Automattic/social-logos/compare/v3.3.18...v3.3.19-alpha
 [3.3.18]: https://github.com/Automattic/social-logos/compare/v3.3.17...v3.3.18
 [3.3.17]: https://github.com/Automattic/social-logos/compare/v3.3.16...v3.3.17
 [3.3.16]: https://github.com/Automattic/social-logos/compare/v3.3.15...v3.3.16

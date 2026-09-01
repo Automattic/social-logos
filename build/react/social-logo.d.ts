@@ -15,5 +15,5 @@ export declare class SocialLogo extends PureComponent<SocialLogoProps> {
         onClick: any;
         className: any;
     };
-    render(): import("react/jsx-runtime").JSX.Element;
+    render(): import("react").JSX.Element;
 }

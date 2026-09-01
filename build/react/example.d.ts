@@ -4,5 +4,5 @@ import '../css/example.css';
  *
  * @return {Component} The `SocialLogosExample` component.
  */
-declare function SocialLogosExample(): import("react/jsx-runtime").JSX.Element;
+declare function SocialLogosExample(): import("react").JSX.Element;
 export default SocialLogosExample;
