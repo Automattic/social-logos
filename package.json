@@ -14,7 +14,7 @@
 	"license": "GPL-2.0+",
 	"exports": {
 		".": "./build/react/index.js",
-		"./colors.css": "./src/social-logo-colors.css",
+		"./colors.css": "./build/css/social-logo-colors.css",
 		"./font/*": "./build/font/*",
 		"./svg-sprite/*": "./build/svg-sprite/social-logos.svg"
 	},
