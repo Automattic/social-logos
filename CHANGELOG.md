@@ -1,3 +1,7 @@
+## [3.4.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## [3.4.0] - 2026-09-28
 ### Changed
 - Expand peer dependencies to support React 19. [#52883]
@@ -359,6 +363,7 @@
 
 - Build: Refactored (aligned build system with Gridicons).
 
+[3.4.1-alpha]: https://github.com/Automattic/social-logos/compare/v3.4.0...v3.4.1-alpha
 [3.4.0]: https://github.com/Automattic/social-logos/compare/v3.3.19...v3.4.0
 [3.3.19]: https://github.com/Automattic/social-logos/compare/v3.3.18...v3.3.19
 [3.3.18]: https://github.com/Automattic/social-logos/compare/v3.3.17...v3.3.18
